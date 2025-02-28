@@ -4,7 +4,7 @@ This document provides an overview of fundamental data structures used in JavaSc
 
 ## 🏗️ 1. Arrays  
 ### Description  
-An array is an ordered collection of elements that can be accessed by their index. JavaScript arrays are dynamic, meaning they can grow or shrink as needed.  
+An array is a data structure that stores elements sequentially in memory and allows access via indexes. JavaScript arrays are dynamic, meaning they can grow or shrink in size and store elements of different types.
 
 ### Use Cases  
 - Storing lists of data (e.g., a list of users, products, or messages)  
@@ -17,8 +17,8 @@ An array is an ordered collection of elements that can be accessed by their inde
 ✔️ Can store different data types  
 
 ### Disadvantages  
-❌ Costly insertions and deletions in the middle (O(n))  
-❌ Requires contiguous memory allocation  
+❌ Costly insertions and deletions in the middle (O(n))
+❌ Requires contiguous memory allocation
 
 ---
 
