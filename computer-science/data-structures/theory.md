@@ -52,12 +52,17 @@ A `Linked List` is a fundamental data structure in computer science. It is a seq
 | **Insertion/Deletion** | Efficient (O(1) at head) | Inefficient (O(n) due to shifting) |
 | **Access** | Sequential (O(n)) | Random (O(1)) |
 
-### Types of Linked Lists
+## Types of Linked Lists
 | Type            | Description| 
 |--------------------|----------------------|
 | **Singly Linked List** | Each node has a pointer to the next node only. |
 | **Doubly Linked List** | Each node has pointers to both the next and previous nodes. |
 | **Circular Linked List** | The last node links back to the first, forming a loop. |
+
+### Singly Linked List
+In a singly linked list, each node consists of two parts: data and a pointer to the next node. This structure allows nodes to be dynamically linked together, forming a chain-like sequence.
+![Singly Linked List](/images/singly-linked-list.webp)
+
 
 
 ### Use Cases  
