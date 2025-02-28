@@ -20,6 +20,18 @@ An array is a data structure that stores elements sequentially in memory and all
 ❌ Costly insertions and deletions in the middle (O(n))  
 ❌ Requires contiguous memory allocation
 
+### 🔢 Array Operations and Time Complexity  
+| Operation           | Example             | Time Complexity |
+|---------------------|---------------------|----------------|
+| Access by index    | `arr[i]`            | **O(1)**       |
+| Insert at the end  | `arr.push(value)`   | **O(1) / O(n)** |
+| Remove from end    | `arr.pop()`         | **O(1)**       |
+| Insert at start    | `arr.unshift(value)` | **O(n)**       |
+| Remove from start  | `arr.shift()`       | **O(n)**       |
+| Insert in middle   | `arr.splice(i, 0, value)` | **O(n)** |
+| Remove from middle | `arr.splice(i, 1)`  | **O(n)**       |
+| Copy array         | `arr.slice()`       | **O(n)**       |
+
 ---
 
 ## 🔗 2. Linked List  
