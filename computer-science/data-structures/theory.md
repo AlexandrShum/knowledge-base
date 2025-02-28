@@ -42,6 +42,8 @@ An array is a data structure that stores elements sequentially in memory and all
 ### Description  
 A linked list is a sequential data structure where each element (node) contains a value and a reference (pointer) to the next node in the sequence. Unlike arrays, linked lists do not require contiguous memory allocation.  
 
+A linked list is a fundamental data structure in computer science. It mainly allows efficient insertion and deletion operations compared to [arrays](#️-1-arrays). Like arrays, it is also used to implement other data structures like stack, queue and deque. Here’s the comparison of Linked List vs Arrays
+
 ### Use Cases  
 - Efficient insertions and deletions in dynamic applications  
 - Implementing stacks and queues  
