@@ -4,7 +4,7 @@ This document provides an overview of fundamental data structures used in JavaSc
 
 ## 🏗️ 1. Arrays  
 ### Description  
-An array is a data structure that stores elements sequentially in memory and allows access via indexes. JavaScript arrays are dynamic, meaning they can grow or shrink in size and store elements of different types.
+An `Array` is a data structure that stores elements sequentially in memory and allows access via indexes. JavaScript arrays are dynamic, meaning they can grow or shrink in size and store elements of different types.
 
 ### Use Cases  
 - Storing lists of data (e.g., a list of users, products, or messages)  
@@ -33,14 +33,14 @@ An array is a data structure that stores elements sequentially in memory and all
 | Copy array         | `arr.slice()`       | **O(n)**       |
 
 ### Examples
-[Arrays examples](arrays.js)
+[Arrays examples](arrays.js)  
 [Arrays methods(!!!! add file with all methods)]()
 
 ---
 
 ## 🔗 2. Linked List  
 ### Description  
-A linked list is a sequential data structure where each element (node) contains a value and a reference (pointer) to the next node in the sequence. Unlike arrays, linked lists do not require contiguous memory allocation.  
+A `Linked List` is a sequential data structure where each element (node) contains a value and a reference (pointer) to the next node in the sequence. Unlike arrays, linked lists do not require contiguous memory allocation.  
 
 A linked list is a fundamental data structure in computer science. It mainly allows efficient insertion and deletion operations compared to [arrays](#️-1-arrays). Like arrays, it is also used to implement other data structures like stack, queue and deque. Here’s the comparison of Linked List vs Arrays
 
