@@ -40,7 +40,7 @@ An `Array` is a data structure that stores elements sequentially in memory and a
 
 ## 🔗 2. Linked List  
 ### Description  
-A linked list is a sequential data structure where each element (node) contains a value and a reference (pointer) to the next node in the sequence. Unlike arrays, linked lists do not require contiguous memory allocation.  
+A `Linked List` is a sequential data structure where each element (node) contains a value and a reference (pointer) to the next node in the sequence. Unlike arrays, linked lists do not require contiguous memory allocation.  
 
 ### Use Cases  
 - Efficient insertions and deletions in dynamic applications  
