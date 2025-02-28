@@ -33,7 +33,8 @@ An array is a data structure that stores elements sequentially in memory and all
 | Copy array         | `arr.slice()`       | **O(n)**       |
 
 ### Examples
-[Arrays (Массивы)](arrays.js)
+[Arrays examples](arrays.js)
+[Arrays methods(!!!! add file with all methods)]()
 
 ---
 
