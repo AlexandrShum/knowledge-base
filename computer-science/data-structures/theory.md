@@ -6,6 +6,8 @@ This document provides an overview of fundamental data structures used in JavaSc
 ### Description  
 An `Array` is a data structure that stores elements sequentially in memory and allows access via indexes. JavaScript arrays are dynamic, meaning they can grow or shrink in size and store elements of different types.
 
+In JavaScript, an `Array` is an ordered list of values. Each value is called an element, and each element has a numeric position in the array, known as its index. Arrays in JavaScript are zero-indexed, meaning the first element is at index 0, the second at index 1, and so on.
+
 ### Use Cases  
 - Storing lists of data (e.g., a list of users, products, or messages)  
 - Implementing other data structures (e.g., stacks, queues)  
@@ -42,7 +44,16 @@ An `Array` is a data structure that stores elements sequentially in memory and a
 ### Description  
 A `Linked List` is a sequential data structure where each element (node) contains a value and a reference (pointer) to the next node in the sequence. Unlike arrays, linked lists do not require contiguous memory allocation.  
 
-A linked list is a fundamental data structure in computer science. It mainly allows efficient insertion and deletion operations compared to [arrays](#️-1-arrays). Like arrays, it is also used to implement other data structures like stack, queue and deque. Here’s the comparison of Linked List vs Arrays
+A `Linked List` is a fundamental data structure in computer science. It mainly allows efficient insertion and deletion operations compared to [arrays](#️-1-arrays). Like arrays, it is also used to implement other data structures like stack, queue and deque. 
+
+### Here’s the comparison of Linked List vs Arrays
+| Feature            | Linked List          | Array               |
+|--------------------|----------------------|----------------------|
+| **Data Structure** | Non-contiguous       | Contiguous           |
+| **Memory Allocation** | Allocated per element | Allocated for whole array |
+| **Insertion/Deletion** | Efficient (O(1) at head) | Inefficient (O(n) due to shifting) |
+| **Access** | Sequential (O(n)) | Random (O(1)) |
+
 
 ### Use Cases  
 - Efficient insertions and deletions in dynamic applications  
