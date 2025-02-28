@@ -17,7 +17,7 @@ An array is a data structure that stores elements sequentially in memory and all
 ✔️ Can store different data types  
 
 ### Disadvantages  
-❌ Costly insertions and deletions in the middle (O(n))
+❌ Costly insertions and deletions in the middle (O(n))  
 ❌ Requires contiguous memory allocation
 
 ---
