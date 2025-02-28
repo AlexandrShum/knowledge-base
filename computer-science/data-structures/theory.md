@@ -60,8 +60,19 @@ A `Linked List` is a fundamental data structure in computer science. It is a seq
 | **Circular Linked List** | The last node links back to the first, forming a loop. |
 
 ### Singly Linked List
-In a singly linked list, each node consists of two parts: data and a pointer to the next node. This structure allows nodes to be dynamically linked together, forming a chain-like sequence.
+In a `singly linked list`, each node consists of two parts: data and a pointer to the next node. This structure allows nodes to be dynamically linked together, forming a chain-like sequence.
+
 ![Singly Linked List](/images/singly-linked-list.webp)
+
+### Doubly Linked List
+A `doubly linked list` is a more complex data structure than a singly linked list, but it offers several advantages. The main advantage of a doubly linked list is that it allows for efficient traversal of the list in both directions. This is because each node in the list contains a `pointer to the previous node` and a `pointer to the next node`. This allows for quick and easy insertion and deletion of nodes from the list, as well as efficient traversal of the list in both directions.
+
+![Doubly Linked List](/images/doubly-linked-list.webp)
+
+### Circular Linked List
+A `circular linked list` is a special type of linked list where all the nodes are connected to form a circle. Unlike a regular linked list, which ends with a node pointing to NULL, the last node in a circular linked list points back to the first node. This means that you can keep traversing the list without ever reaching a NULL value.
+
+![Circular Linked List](/images/circular-linked-list.webp)
 
 
 
