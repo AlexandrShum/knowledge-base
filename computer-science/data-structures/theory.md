@@ -42,9 +42,7 @@ In JavaScript, an `Array` is an ordered list of values. Each value is called an 
 
 ## 🔗 2. Linked List  
 ### Description  
-A `Linked List` is a sequential data structure where each element (node) contains a value and a reference (pointer) to the next node in the sequence. Unlike arrays, linked lists do not require contiguous memory allocation.  
-
-A `Linked List` is a fundamental data structure in computer science. It mainly allows efficient insertion and deletion operations compared to [arrays](#️-1-arrays). Like arrays, it is also used to implement other data structures like stack, queue and deque. 
+A `Linked List` is a fundamental data structure in computer science. It is a sequential data structure where each element (node) contains a value and a reference (pointer) to the next node in the sequence. Unlike [arrays](#️-1-arrays), linked lists do not require contiguous memory allocation. It mainly allows efficient insertion and deletion operations compared to [arrays](#️-1-arrays). Like arrays, it is also used to implement other data structures like stack, queue and deque. 
 
 ### Here’s the comparison of Linked List vs Arrays
 | Feature            | Linked List          | Array               |
