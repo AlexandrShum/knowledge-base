@@ -32,6 +32,9 @@ An array is a data structure that stores elements sequentially in memory and all
 | Remove from middle | `arr.splice(i, 1)`  | **O(n)**       |
 | Copy array         | `arr.slice()`       | **O(n)**       |
 
+### Examples
+[Arrays (Массивы)](arrays.js)
+
 ---
 
 ## 🔗 2. Linked List  
