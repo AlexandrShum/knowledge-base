@@ -93,20 +93,38 @@ A `circular linked list` is a special type of linked list where all the nodes ar
 
 ## 📦 3. Stack  
 ### Description  
-A stack is a Last-In-First-Out (LIFO) data structure where elements are added and removed from the same end (the top of the stack).  
+A stack is a fundamental data structure in computer science that follows the `Last In, First Out (LIFO)` principle. This means that the last element added to the stack will be the first one to be removed. Stacks are widely used in various applications, such as function call management, undo mechanisms, and parsing expressions.
+
+### Operations Performed on a Stack
+- Push: Adds an element to the top of the stack.
+- Pop: Removes and returns the top element from the stack.
+- Peek (or Top): Returns the top element without removing it.
+- isEmpty: Checks if the stack is empty.
+- Size: Returns the number of elements in the stack.
 
 ### Use Cases  
 - Undo/redo functionality in applications  
 - Function call stack in programming languages  
 - Expression evaluation (e.g., parentheses matching)  
 
+### Extreme Conditions in a Stack
+- Stack Underflow:  
+  Occurs when you try to perform a pop or peek operation on an empty stack.
+  Handling: Check if the stack is empty before performing these operations.
+-  Stack Overflow:
+  Occurs when you try to push an element into a stack that has reached its maximum capacity (in languages or implementations where the stack size is fixed).
+  Handling: Check if the stack is full before performing a push operation.
+
+
 ### Advantages  
-✔️ Simple and efficient (O(1) for push and pop operations)  
-✔️ Helps manage recursive function calls  
+All operations in the Stack Class ( Push , Pop, Peek, isEmpty, Size,) have O(1) time complexity.  print Stack(), which is O(n).
 
 ### Disadvantages  
 ❌ Limited access (only the top element can be accessed)  
-❌ Can lead to stack overflow in recursive applications  
+❌ Can lead to stack overflow in recursive applications 
+
+### Examples
+[Stack examples](stack.js)  
 
 ---
 
