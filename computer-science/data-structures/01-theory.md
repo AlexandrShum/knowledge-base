@@ -166,6 +166,9 @@ FIFO Principle states that the first element added to the Queue will be the firs
 ❌ Slower element access (O(n) lookup)  
 ❌ Array-based implementations require shifting elements for dequeue (O(n))  
 
+### Examples
+[Queue examples](queue.js) 
+
 ---
 
 ## 🔑 5. Hash Table (Object/Map)  
@@ -185,8 +188,7 @@ A hash table is a data structure that stores key-value pairs for fast lookups. I
 ❌ Possible hash collisions, which degrade performance  
 ❌ Consumes extra memory for storing hash keys  
 
-### Examples
-[Queue examples](queue.js)  
+ 
 
 ---
 
