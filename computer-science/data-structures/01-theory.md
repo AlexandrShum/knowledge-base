@@ -95,6 +95,14 @@ A `circular linked list` is a special type of linked list where all the nodes ar
 ### Description  
 A stack is a fundamental data structure in computer science that follows the `Last In, First Out (LIFO)` principle. This means that the last element added to the stack will be the first one to be removed. Stacks are widely used in various applications, such as function call management, undo mechanisms, and parsing expressions.
 
+### LIFO(Last In First Out) Principle
+Here are some real world examples of LIFO
+ * Consider a stack of plates. When we add a plate, we add at the top. When we remove, we remove from the top.
+ * A shuttlecock box (or any other box that is closed from one end) is another great real-world example of the LIFO (Last In, First Out) principle where do insertions and removals from the same end.
+
+![FIFO Principle](/images/LIFO-principle.webp)
+
+
 ### Operations Performed on a Stack
 - Push: Adds an element to the top of the stack.
 - Pop: Removes and returns the top element from the stack.
@@ -130,7 +138,20 @@ All operations in the Stack Class ( Push , Pop, Peek, isEmpty, Size,) have O(1) 
 
 ## 🚦 4. Queue  
 ### Description  
-A queue is a First-In-First-Out (FIFO) data structure where elements are added at the back and removed from the front.  
+A Queue Data Structure is a fundamental concept in computer science used for storing and managing data in a specific order. It follows the principle of `First in, First out (FIFO)`, where the first element added to the queue is the first one to be removed. Queues are commonly used in various algorithms and applications for their simplicity and efficiency in managing data flow.
+
+### FIFO Principle in Queue
+FIFO Principle states that the first element added to the Queue will be the first one to be removed or processed. So, Queue is like a line of people waiting to purchase tickets, where the first person in line is the first person served. (i.e. First Come First Serve).
+
+![FIFO Principle](/images/FIFO-principle.webp)
+
+### Operations on Queue
+ - Enqueue: Enqueue operation adds (or stores) an element to the end of the queue.
+ - Dequeue: Dequeue operation removes the element at the front of the queue.
+ - Peek/Front: This operation returns the element at the front end without removing it.
+ - Size: This operation returns the numbers of elements present in the queue.
+ - isEmpty: This operation returns a boolean value that indicates whether the queue is empty or not.
+ - isFull: This operation returns a boolean value that indicates whether the queue is full or not.
 
 ### Use Cases  
 - Task scheduling (e.g., print queue, request processing)  
@@ -163,6 +184,9 @@ A hash table is a data structure that stores key-value pairs for fast lookups. I
 ### Disadvantages  
 ❌ Possible hash collisions, which degrade performance  
 ❌ Consumes extra memory for storing hash keys  
+
+### Examples
+[Queue examples](queue.js)  
 
 ---
 
